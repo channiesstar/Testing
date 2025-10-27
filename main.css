@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/** fonts **/
+@font-face {
+    font-family: 'cute';
+    src: url(Fonts/CuteFont-Regular.otf);
+}
+
+@font-face {
+    font-family: 'fun';
+    src: url(Fonts/PlaywriteDEGrund-VariableFont_wght.ttf);
+}
+
+/** text decorations**/
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/** navigation bar **/
+
+nav {
+    background-image: url(Images/Header.webp);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.125rem;
+    height: 10rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav .right {
+    display: flex;
+    gap: 5px;
+}
+
+nav .right a {
+    font-family: 'cute';
+    color: white;
+    margin: 0 0.625rem;
+    font-size: 2rem;
+}
+
+/** font classes for different parts of website **/
+
+.header {
+    font-family: 'cute';
+    color: white;
+}
+
+/** media css for multiple devices **/
+
+@media (max-width:600px) {
+
+}
+
+@media (min-width:601px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:982px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
