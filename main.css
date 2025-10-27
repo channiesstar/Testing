@@ -90,8 +90,6 @@ nav .right a {
     float: left;
 }
 
-
-
 /** footer **/
 
 footer {
@@ -138,7 +136,7 @@ p {
 
 }
 
-@media (min-width:768px) {
+@media (max-width:768px) {
     nav {
         height: auto;
         padding: 1rem;
