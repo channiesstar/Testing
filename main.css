@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+}
+
 /** fonts **/
 @font-face {
     font-family: 'cute';
@@ -48,10 +53,77 @@ nav .right a {
     font-size: 2rem;
 }
 
+/** section about-me **/
+
+.title {
+    background-color: #ae967f;
+    padding-top: 12rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#general {
+    background-color: #ae967f;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Images */
+
+#channie {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.image-text {
+    padding-left: 20px;
+    float: left;
+}
+
+
+
+/** footer **/
+
+footer {
+    background-color: #96887c;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.875rem;
+}
+
+#footer {
+    font-family: 'cute';
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
 /** font classes for different parts of website **/
+
+#hey-guys {
+    font-family: 'cute';
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
 
 .header {
     font-family: 'cute';
+    color: white;
+}
+
+p {
+    font-family: 'fun';
     color: white;
 }
 
