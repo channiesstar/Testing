@@ -59,6 +59,7 @@ nav .right a {
     background-color: #ae967f;
     padding-top: 12rem;
     padding-bottom: 1rem;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
