@@ -26,6 +26,12 @@ a {
     font-weight: bold;
 }
 
+.instagram {
+    color:white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /** navigation bar **/
 
 nav {
@@ -78,16 +84,8 @@ nav .right a {
 /* Images */
 
 #channie {
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
-    overflow: hidden;
-    float: left;
-}
-
-.image-text {
-    padding-left: 20px;
-    float: left;
+    height: 10rem;
+    width: 100%;
 }
 
 /** footer **/
@@ -143,7 +141,7 @@ p {
     }
 
     nav .right a {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     #general {
@@ -153,10 +151,7 @@ p {
     }
 
     #channie {
-        width: 60vw;
-        height: 60vw;
-        max-width: 250px;
-        max-height: 250px;
+
     }
 
     .image-text {
