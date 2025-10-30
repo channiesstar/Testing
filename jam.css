@@ -26,12 +26,6 @@ a {
     font-weight: bold;
 }
 
-.instagram {
-    color:white;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
 h1 a {
     text-decoration: none;
     color: white
@@ -64,36 +58,19 @@ nav .right a {
     font-size: 2rem;
 }
 
-/** section about-me **/
+/** section jams **/
 
-.title {
+#jams {
     background-color: #ae967f;
     padding-top: 12rem;
     padding-bottom: 1rem;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-#general {
-    background-color: #ae967f;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-#about-me {
-    background-color: #ae967f;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
 
 /* Images */
 
@@ -118,25 +95,12 @@ footer {
     font-size: 1.5rem;
 }
 
-
-
 /** font classes for different parts of website **/
 
-#hey-guys {
+#my-playlists {
     font-family: 'cute';
     color: white;
     text-align: center;
     font-size: 3rem;
+    padding: 4rem;
 }
-
-.header {
-    font-family: 'cute';
-    color: white;
-}
-
-p {
-    font-family: 'fun';
-    color: white;
-}
-
-/** media css for multiple devices **/
